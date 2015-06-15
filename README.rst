@@ -16,7 +16,7 @@ publish it online on ReadTheDocs_.
 9. Select you project and click "Create"
 10. Wait for your online documentation to build and enjoy
 
-See the sample documentation for this module
+This repository itself has been set up as an Arduino library called ArduinoDocs (see ``ArduinoDocs.h`` and ``ArduinoDocs.cpp``), and the documentation generated for it can be seen in http://arduinodocs.readthedocs.org/
 
 Following the instructions above, ReadTheDocs will build all the documentation for you. If you want
 to build it yourself, you need to:
