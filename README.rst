@@ -9,16 +9,18 @@ You just need to follow these steps:
 
 1. Install Python_
 2. Add documentation to your Arduino library using the `Doxygen standard`_
-3. Copy ``arduinodocs.py`` to the root directory of your library and run it
-4. Push your library code to GitHub_ and add a README.rst
-5. Publish it to ReadTheDocs_
+3. Add a README.rst and make sure to add a separator ``----`` somewhere. Thh README text will be
+   included in the documentation up to that point.
+4. Copy ``arduinodocs.py`` to the root directory of your library and run it
+5. Push your library code to GitHub_
+6. Publish it to ReadTheDocs_
 
    a. Click "Import a Project"
    b. Connect to your GitHub account if you haven't done it yet
    c. Click "Import from GitHub"
    d. Select you project and click "Create"
 
-6. Wait for your online documentation to build automatically. Enjoy!
+7. Wait for your online documentation to build automatically. Enjoy!
 
 Every time you commit to your Github repository, the documentation will be automatically rebuilt by ReadTheDocs.
 
