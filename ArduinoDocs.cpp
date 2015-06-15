@@ -1,9 +1,9 @@
-/**
- * This is a sample library to show how to use ArduinoDocs.
+/** @file
+ * This is a sample Arduino library showing how to use ArduinoDocs.
  *
  * Copyright (c) 2015 Circuitar
  * This software is released under the MIT license. See the attached LICENSE file for details.
-*/
+ */
 #include <ArduinoDocs.h>
 
 ArduinoDocs::ArduinoDocs() {
