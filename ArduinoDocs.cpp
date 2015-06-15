@@ -1,6 +1,4 @@
 /**
- * ArduinoDocs sample library.
- *
  * This is a sample library to show how to use ArduinoDocs.
  *
  * Copyright (c) 2015 Circuitar
