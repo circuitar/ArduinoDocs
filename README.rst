@@ -5,6 +5,8 @@ This is a tool to generate and publish online documentation for Arduino librarie
 Doxygen_ and Breathe_ to build documentation from the source code of your Arduino library and
 publish it online on ReadTheDocs_.
 
+You just need to follow these steps:
+
 1. Install Python_ 2.7
 2. Add documentation to your Arduino library using the `Doxygen standard`_
 3. Copy ``arduinodocs.py`` to the root directory of your library and run it
