@@ -5,8 +5,8 @@ This is a tool to generate and publish online documentation for Arduino librarie
 Doxygen_ and Breathe_ to build documentation from the source code of your Arduino library and
 publish it online on ReadTheDocs_.
 
-* Source code available on GitHub_
-* Full documentation available on ReadTheDocs_
+* Source code available on GitHub_: https://github.com/circuitar/ArduinoDocs
+* Full documentation available on ReadTheDocs_: http://arduinodocs.readthedocs.org/
 
 To add documentation to your library, you just need to follow these steps:
 
