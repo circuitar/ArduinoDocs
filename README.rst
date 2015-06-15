@@ -22,7 +22,7 @@ You just need to follow these steps:
 
 7. Wait for your online documentation to build automatically. Enjoy!
 
-Every time you commit to your Github repository, the documentation will be automatically rebuilt by ReadTheDocs.
+Every time you push changes to your Github repository, the documentation will be automatically rebuilt by ReadTheDocs.
 
 This repository itself has been set up as an Arduino library called ArduinoDocs (see ``ArduinoDocs.h`` and ``ArduinoDocs.cpp``). You can look at those files to see how to document your library code, and see how the auto-generated documentation looks in http://arduinodocs.readthedocs.org/
 
