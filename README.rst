@@ -9,7 +9,7 @@ You just need to follow these steps:
 
 1. Install Python_
 2. Add documentation to your Arduino library using the `Doxygen standard`_
-3. Add a README.rst and make sure to add a separator ``----`` somewhere. Thh README text will be
+3. Add a README.rst and make sure to add a :literal:`\-\-\-\-` transition somewhere. The README text will be
    included in the documentation up to that point.
 4. Copy ``arduinodocs.py`` to the root directory of your library and run it
 5. Push your library code to GitHub_
