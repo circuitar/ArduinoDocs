@@ -22,7 +22,7 @@ You just need to follow these steps:
 
 Every time you commit to your Github repository, the documentation will be automatically rebuilt by ReadTheDocs.
 
-This repository itself has been set up as an Arduino library called ArduinoDocs (see ``ArduinoDocs.h`` and ``ArduinoDocs.cpp``), and the documentation generated for it can be seen in http://arduinodocs.readthedocs.org/
+This repository itself has been set up as an Arduino library called ArduinoDocs (see ``ArduinoDocs.h`` and ``ArduinoDocs.cpp``). You can look at those files to see how to document your library code, and see how the auto-generated documentation looks in http://arduinodocs.readthedocs.org/
 
 If you want to build the documentation locally, you need to:
 
