@@ -7,7 +7,7 @@ publish it online on ReadTheDocs_.
 
 You just need to follow these steps:
 
-1. Install Python_ 2.7
+1. Install Python_
 2. Add documentation to your Arduino library using the `Doxygen standard`_
 3. Copy ``arduinodocs.py`` to the root directory of your library and run it
 4. Push your library code to GitHub_ and add a README.rst
