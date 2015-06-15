@@ -40,7 +40,7 @@ class ArduinoDocs
      *
      * @param p1  method 2's first parameter.
      * @param p2  method 2's second parameter.
-     * return     return value for method 2.
+     * @return   return value for method 2.
      */
     int method2(int p1, int p2);
     
