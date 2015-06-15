@@ -9,9 +9,14 @@ publish it online on ReadTheDocs_.
 2. Add documentation to your Arduino library using the `Doxygen standard`_
 3. Copy ``arduinodocs.py`` to the root directory of your library and run it
 4. Push your library code to GitHub_
-5. Sign up to ReadTheDocs_ and link it to your GitHub account
-6. Create a project and link it to your GitHub repository
-7. Enjoy your online documentation
+5. Sign in to ReadTheDocs_
+6. Click "Import a Project"
+7. Connect to your GitHub account if you haven't done it yet
+8. Click "Import from GitHub"
+9. Select you project and click "Create"
+10. Wait for your online documentation to build and enjoy
+
+See the sample documentation for this module
 
 Following the instructions above, ReadTheDocs will build all the documentation for you. If you want
 to build it yourself, you need to:
