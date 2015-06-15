@@ -22,9 +22,9 @@ This repository itself has been set up as an Arduino library called ArduinoDocs 
 
 If you want to build the documentation locally, you need to:
 
-1. Install _Sphinx: ``pip install Sphinx``
-2. Install _Breathe: ``pip install breathe``
-3. Downlosd and install _Doxygen
+1. Install Sphinx_: ``pip install Sphinx``
+2. Install Breathe_: ``pip install breathe``
+3. Downlosd and install Doxygen_
 4. Run ``arduinodocs.py`` as above
 5. ``cd`` to the ``docs`` directory
 6. Run ``doxygen``
