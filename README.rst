@@ -40,7 +40,7 @@ If you want to build the documentation locally, you need to:
 1. Install Sphinx_: ``pip install Sphinx``
 2. Install Breathe_: ``pip install breathe``
 3. Download and install Doxygen_
-4. Run ``arduinodocs.py`` as described in the `Online Documentation`_ section
+4. Follow the steps in the `Online Documentation`_ section up to the point where ``arduinodocs.py`` is run
 5. ``cd`` to the ``docs`` directory
 6. Run ``doxygen`` to extract the documentation from your source code
 7. Run ``sphinx-build -b html . _build/html`` to generate the HTML documentation
