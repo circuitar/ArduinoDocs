@@ -6,9 +6,12 @@ Doxygen_ and Breathe_ to build documentation from the source code of your Arduin
 publish it online on ReadTheDocs_.
 
 * Source code: https://github.com/circuitar/ArduinoDocs
-* Documentation: http://arduinodocs.readthedocs.org/
+* Documentation: http://arduinodocs.readthedocs.org
 
-To add documentation to your library, you just need to follow these steps:
+Online Documentation
+....................
+
+To add online documentation to your library on ReadTheDocs_, you just need to follow these steps:
 
 1. Install Python_
 2. Add documentation to your Arduino library using the `Doxygen standard`_
@@ -27,7 +30,10 @@ To add documentation to your library, you just need to follow these steps:
 
 Every time you push changes to your Github repository, the documentation will be automatically rebuilt by ReadTheDocs.
 
-This repository itself has been set up as an Arduino library called ArduinoDocs (see ``ArduinoDocs.h`` and ``ArduinoDocs.cpp``). You can look at those files to see how to document your library code, and see how the auto-generated documentation looks in http://arduinodocs.readthedocs.org/
+This repository itself has been set up as an Arduino library called ArduinoDocs (see ``ArduinoDocs.h`` and ``ArduinoDocs.cpp``). You can look at those files to see how to document your library code, and see how the auto-generated documentation looks in http://arduinodocs.readthedocs.org
+
+Local Build
+...........
 
 If you want to build the documentation locally, you need to:
 
