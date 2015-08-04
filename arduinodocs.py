@@ -40,7 +40,7 @@ index_rst = '''\
 .. toctree::
    :maxdepth: 2
 
-.. include:: ../README.rst
+.. include:: ../../README.rst
    :end-before: ----
 
 Class Documentation
