@@ -40,7 +40,7 @@ index_rst = '''\
 .. toctree::
    :maxdepth: 2
 
-.. include:: ../README.rst
+.. include:: ../../README.rst
    :end-before: ----
 
 Class Documentation
@@ -144,7 +144,7 @@ WARN_IF_UNDOCUMENTED   = YES
 WARN_IF_DOC_ERROR      = YES
 WARN_NO_PARAMDOC       = NO
 WARN_FORMAT            = "$file:$line: $text"
-INPUT                  = ..
+INPUT                  = ../../src
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          = *.c \
                          *.cc \
@@ -280,12 +280,12 @@ requirements_txt = '''\
 breathe
 '''
 
-if not os.path.exists('docs'):
-    os.makedirs('docs')
+if not os.path.exists('extras/docs'):
+    os.makedirs('extras/docs')
 
 library_name = os.path.basename(os.getcwd())
 
-open('docs/conf.py', 'w').write(conf_py.format(library_name, library_name.replace('_', '\_')))
-open('docs/index.rst', 'w').write(index_rst.format(library_name))
-open('docs/Doxyfile', 'w').write(doxyfile.format(library_name))
-open('docs/requirements.txt', 'w').write(requirements_txt)
+open('extras/docs/conf.py', 'w').write(conf_py.format(library_name, library_name.replace('_', '\_')))
+open('extras/docs/index.rst', 'w').write(index_rst.format(library_name))
+open('extras/docs/Doxyfile', 'w').write(doxyfile.format(library_name))
+open('extras/docs/requirements.txt', 'w').write(requirements_txt)
