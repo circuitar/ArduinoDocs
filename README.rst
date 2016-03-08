@@ -25,6 +25,7 @@ To add online documentation to your library on ReadTheDocs_, you just need to fo
    b. Connect to your GitHub account if you haven't done it yet
    c. Click "Import from GitHub"
    d. Select you project and click "Create"
+   e. Enter the project page in ReadTheDocs, click on ``Admin`` > ``Advanced Settings`` and use ``extras/docs/requirements.txt`` as the requirements file
 
 7. Wait for your online documentation to build automatically. Enjoy!
 
